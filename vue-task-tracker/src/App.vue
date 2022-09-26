@@ -3,16 +3,21 @@
     <counter/>
     <todos />
   </div>
+  <div class="container">
+    <ComponentOne />
+  </div>
 </template>
 
 <script>
 import counter from './components/Counter.vue';
 import todos from './components/Todos.vue';
+import ComponentOne from './components/OneComp.vue';
 export default {
   name: 'App',
   components: {
     counter,
-    todos
+    todos,
+    ComponentOne,
   }
 }
 </script>
